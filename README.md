@@ -12,6 +12,6 @@
 |:-|:-:|:-:|:-|
 |/api/v1/bing/today|GET|JSON|获取Bing每日壁纸，Json格式，全8张|
 |/api/v1/bing/today/:index|GET|JSON|获取Bing每日壁纸，Json格式，第1张|
-|/api/v1/rand/type/:type|GET|IMAGE|根据类型获取服务器本地的壁纸随机请求|
+|/api/v1/rand/:type|GET|IMAGE|根据类型获取服务器本地的壁纸随机请求|
 |/api/v1/image/:id|GET|IMAGE|返回一个特定的图片|
 |/api/v1/bing/history/rand|GET|IMAGE|随机请求一个Bing的历史壁纸|
